@@ -14,17 +14,17 @@
 <body>
     <form onsubmit="return cadastro()">
         <table>
-			<tr> 
-				<td>  
+			<tr> <!-- cria uma linha na tabela -->
+				<td>  <!-- cria uma coluna na tabela -->
 					<div class="campo">
-						<label name="nome" for="nome"><strong>Nome:*</strong></label>
+						<label name="nome" for="nome"><strong>Nome:</strong></label>
 						<input type="text" size="70" name="txtNome" id="txtNome" placeholder="Digite seu nome">
 					</div>
 				</td>
 				<td class="espacoColuna"></td>
 				<td>
 					<div class="campo">
-						<label for="CPF"><strong>CPF:*</strong></label>
+						<label for="CPF"><strong>CPF:</strong></label>
 						<input type="text" id="txtCPF" name="txtCPF" placeholder="Insira seu CPF" onkeypress="mascara(this, '###.###.###-##')">
 					</div>
 				</td>
@@ -40,14 +40,14 @@
 			<tr>
 				<td>
 					<div class="campo">
-						<label><strong>Endereço:*</strong></label>
+						<label><strong>Endereço:</strong></label>
 						<input type="text" size="70" name="txtEndereco" id="txtEndereco" placeholder="Insira seu endereço (Ex.:rua, avenida, alameda)"> <br />
 					</div>
 				</td>
 				<td class="espacoColuna"></td>
 				<td>
 					<div class="campo">
-						<label><strong>Número:*</strong></label>
+						<label><strong>Número:</strong></label>
 						<input type="text" name="txtNumero" id="txtNumero" placeholder="Número">
 					</div>
 				</td>
@@ -60,8 +60,8 @@
 					
 				</td>	
 			</tr>
-			<tr> 
-				<td> 
+			<tr> <!-- cria uma linha na tabela -->
+				<td>  <!-- cria uma coluna na tabela -->
 					 <div class="campo">
 						<label><strong>Cidade:</strong></label>
 						<input type="text" size="70" name="txtCidade" id="txtCidade" placeholder="Digite a cidade de endereço">
@@ -81,7 +81,7 @@
 				<td class="espacoColuna"></td>
 				<td>
 					 <div class="campo">
-						<label name="celular" for="celular"><strong>Celular:*</strong></label>	
+						<label name="celular" for="celular"><strong>Celular:</strong></label>	
 						<input type="text" name="txtCelular" id="txtCelular" title="Digite um telefone no formato adequado!" onkeypress="mascara(this, '## #####-####')" placeholder="00 00000-0000" />
 					</div>
 				</td>
